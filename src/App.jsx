@@ -16,7 +16,7 @@ const App = () => {
   // console.log(data)
   // console.log(text)
   return <div className="section-center">
-    <h4>chose the number to display the paragraph</h4>
+    <h4>choose the number to display the paragraph</h4>
     <form className="lorem-form" onSubmit={handleSubmit}>
       <label htmlFor="amount" className="form-row">paragraphs:-</label>
       <input type="number"
